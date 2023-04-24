@@ -6,16 +6,3 @@ html {
 }
 
 @tailwind utilities;
-
-<style>
-  .photo-container {
-    white-space: nowrap; /* Prevents wrapping to next line */
-    font-size: 0; /* Removes whitespace between inline-block elements */
-  }
-
-  .photo-container img {
-    display: inline-block;
-    width: 30%; /* Adjust width as needed */
-    margin-right: 10px; /* Add margin between images */
-  }
-</style>
