@@ -13,7 +13,7 @@ This project is possible by following the template from : https://redpixelthemes
 - [x] ~~Clone repository to Github Desktop~~  
 - [x] ~~Adjust code to Athena's information~~
 - [x] ~~Publish Github Repository as a Static Web App on Azure~~
-- [ ] Google Analytics
+- [x] ~~Google Analytics~~
 - [ ] Passing HTML, WCAG 2.1 Level AA, & CSS checks
 
 ---
