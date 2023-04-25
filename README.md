@@ -15,7 +15,6 @@ This project is possible by following the template from : https://redpixelthemes
 [x] ~~Publish Github Repository as a Static Web App on Azure~~
 [ ] Google Analytics
 [ ] Passing HTML & CSS checks
-[ ] 
 
 ---
 
