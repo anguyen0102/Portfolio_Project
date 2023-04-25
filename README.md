@@ -14,10 +14,11 @@ This project is possible by following the template from : https://redpixelthemes
 [ ] Google Analytics
 [ ] Passing HTML & CSS checks
 [ ] 
-
+---
 
 ## TROUBLESHOOTING :
 ---
 [ ] Links to social media do not work
 [ ] Photos for 'Nails' Category is not correctly sized
 [ ] post.html trouble shooting for each post page
+---
