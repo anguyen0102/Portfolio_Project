@@ -14,7 +14,7 @@ This project is possible by following the template from : https://redpixelthemes
 - [x] ~~Adjust code to Athena's information~~
 - [x] ~~Publish Github Repository as a Static Web App on Azure~~
 - [ ] Google Analytics
-- [ ] Passing HTML & CSS checks
+- [ ] Passing HTML, WCAG 2.1 Level AA, & CSS checks
 
 ---
 
