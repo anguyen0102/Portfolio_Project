@@ -152,19 +152,6 @@
         <li class="group pl-6">
           
           <span
-            @click="triggerNavItem('#portfolio')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-            >Portfolio</span
-          >
-          
-          <span
-            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-          ></span>
-        </li>
-        
-        <li class="group pl-6">
-          
-          <span
             @click="triggerNavItem('#clients')"
             class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >Nails</span
@@ -243,16 +230,6 @@
           @click="triggerMobileNavItem('#services')"
           class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
           >Expertise</span
-        >
-        
-      </li>
-      
-      <li class="py-2">
-        
-        <span
-          @click="triggerMobileNavItem('#portfolio')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-          >Portfolio</span
         >
         
       </li>
@@ -626,44 +603,6 @@
   </div>
 </div>
 
-<div class="container py-16 md:py-20" id="portfolio">
-  <h2
-    class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-  >
-    Check out my Portfolio
-  </h2>
-  <h3
-    class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
-  >
-    Here's what I have done with the past
-  </h3>
-
-  <div
-    class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2"
-  >
-    <a
-      href="/"
-      class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-    >
-      <img
-        src="/assets/img/portfolio-apple.jpeg"
-        class="w-full shadow"
-        alt="portfolio image"
-      />
-    </a>
-    <a
-      href="/"
-      class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-    >
-      <img
-        src="/assets/img/portfolio-stripe.jpeg"
-        class="w-full shadow"
-        alt="portfolio image"
-      />
-    </a>
-  </div>
-</div>
-
 <div class="bg-grey-50" id="clients">
   <div class="container py-16 md:py-20">
     <div class="mx-auto w-full sm:w-3/4 lg:w-full">
@@ -672,30 +611,40 @@
       >
         My latest nail designs
       </h2>
-        <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
-          <span class="m-8 block">
-            <img
-              src="/assets/img/mickey_mouse.jpg"
-              alt="client logo"
-              class="mx-auto block h-12 w-auto"
-            />
-          </span>
-          <span class="m-8 block">
-            <img
-              src="/assets/img/flowers.jpg"
-              alt="client logo"
-              class="mx-auto block h-12 w-auto"
-            />
-          </span>
-
-          <span class="m-8 block">
-            <img
-              src="/assets/img/mushrooms.jpg"
-              alt="client logo"
-              class="mx-auto block h-12 w-auto"
-            />
-          </span>
-        </div>
+      <div
+      class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2"
+    >
+        <a
+          href="/"
+          class="mx-auto transform transition-all hover:scale-105 md:mx-0"
+        >
+          <img
+            src="/assets/img/mickey_mouse.jpg"
+            class="w-full shadow"
+            alt="portfolio image"
+          />
+        </a>
+        <a
+          href="/"
+          class="mx-auto transform transition-all hover:scale-105 md:mx-0"
+        >
+          <img
+            src="/assets/img/mushrooms.jpg"
+            class="w-full shadow"
+            alt="portfolio image"
+          />
+        </a>
+        <a
+        href="/"
+        class="mx-auto transform transition-all hover:scale-105 md:mx-0"
+      >
+        <img
+          src="/assets/img/flowers.jpg"
+          class="w-full shadow"
+          alt="portfolio image"
+        />
+        </a>
+    </div>
     </div>
   </div>
 </div>
