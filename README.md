@@ -1,6 +1,6 @@
 # Athena Phommivong's Portfolio Project
 
-link to site : https://athenaphommivong.com
+link to site : [athenaphommivong.com]
 
 This project is possible by following the template from : https://redpixelthemes.com/templates/atom/
 - Atom is a free portfolio template styled with TailwindCSS. Other open source libraries were also used to provide the functionality required to make your customization quicker and faster.
