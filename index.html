@@ -73,7 +73,9 @@
     media="screen"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="/assets/styles/cookie-popup.css">
+  <link 
+    rel="stylesheet" 
+    href="/assets/styles/cookie-popup.css">
 
   <script source = "/assets/js/main.js"> </script>
   <script
@@ -154,19 +156,6 @@
         <li class="group pl-6">
           
           <span
-            @click="triggerNavItem('#clients')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-            >Nails</span
-          >
-          
-          <span
-            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-          ></span>
-        </li>
-        
-        <li class="group pl-6">
-          
-          <span
             @click="triggerNavItem('#work')"
             class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >Work</span
@@ -232,16 +221,6 @@
           @click="triggerMobileNavItem('#services')"
           class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
           >Expertise</span
-        >
-        
-      </li>
-      
-      <li class="py-2">
-        
-        <span
-          @click="triggerMobileNavItem('#clients')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-          >Nails</span
         >
         
       </li>
@@ -601,43 +580,6 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="bg-grey-50" id="clients">
-  <div class="container py-16 md:py-20">
-    <div class="mx-auto w-full sm:w-3/4 lg:w-full">
-      <h2
-        class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-      >
-        My latest nail designs
-      </h2>
-      <div
-      class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2"
-    >
-        <a
-          
-          class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-        >
-          <img
-            src="/assets/img/sm_mickey_mouse.jpg"
-            class="w-full shadow"
-            alt="portfolio image"
-          />
-        </a>
-
-        <a
-        
-        class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-      >
-        <img
-          src="/assets/img/sm_flowers.jpg"
-          class="w-full shadow"
-          alt="portfolio image"
-        />
-        </a>
-    </div>
     </div>
   </div>
 </div>
