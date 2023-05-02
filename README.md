@@ -1,29 +1,8 @@
 # Athena Phommivong's Portfolio Project
 
-link to site : [athenaphommivong.com]
-
 This project is possible by following the template from : https://redpixelthemes.com/templates/atom/
-- Atom is a free portfolio template styled with TailwindCSS. Other open source libraries were also used to provide the functionality required to make your customization quicker and faster.
 
-### TO DO LIST:
+Scan this QR Code to see my web portfolio!
+- Alternatively, here is the official link to site : [athenaphommivong.com]
 
----
-
-- [x] ~~Downloaded Template~~
-- [x] ~~Clone repository to Github Desktop~~  
-- [x] ~~Adjust code to Athena's information~~
-- [x] ~~Publish Github Repository as a Static Web App on Azure~~
-- [x] ~~Google Analytics~~
-- [x] ~~Added Cookie Pop-up page~~
-- [ ] Add Terms and Conditions
-- [ ] Passing HTML, WCAG 2.1 Level AA, & CSS checks
-
----
-
-### TROUBLESHOOTING :
-
----
-- [x] ~~Links to social media do not work~~
-- [ ] Photos for 'Nails' Category is not correctly sized
-
----
+<img src="assets/img/qrcode.jpg" alt="QR Code">
